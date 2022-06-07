@@ -1,0 +1,252 @@
+body {
+    background-color: #f4f4f4;
+
+
+}
+
+.mynavbar{
+
+    background-color: rgb(48,142,197);
+}
+
+
+
+.myimages{
+
+    height: 500px;
+}
+
+.myvision{
+
+    background-color:rgb(0, 102, 0);
+       
+}
+
+.myheading {
+
+
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+
+.mytext {
+
+    font-family: 'Nunito', sans-serif;
+  
+    
+}
+
+.mycardtext{
+
+    font-family: 'EB Garamond', serif;
+}
+
+.movetext{
+
+    margin-top: -25px;
+}
+
+.mylist{
+
+    list-style-type: none;
+}
+
+.section2{
+
+    
+  
+    position: relative;
+
+    
+}
+
+/* .numbering{
+
+position: absolute;
+top: 70px;
+/* margin-left: 50px; */
+    
+/* }  */
+
+.mynumberheading{
+
+    font-family: 'Bebas Neue', cursive;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        font-size: 40px;
+}
+
+.overlap{
+
+    margin-top: -40px;
+}
+
+.mydisplayheading{
+
+    font-family: 'Bebas Neue', cursive;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        font-size: 20px;
+}
+
+.mytestimonial{
+
+    background-color: rgb(0, 41, 0);
+}
+
+.mytestimonialheading{
+
+
+    font-family: 'Bebas Neue', cursive;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        font-size: 30px;
+}
+
+.myleftquote {
+
+
+    margin-left: 250px;
+}
+
+.mycard:hover {
+
+    background-color:rgb(0, 41, 0) ;
+    color: white;
+}
+
+.mynewsletter {
+
+
+    margin-left: 250px;}
+
+
+    #newsletter{
+
+
+        background-image:url("images/overlay2.webp");
+        height: 130px;
+
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+
+    .overlay{
+
+        background-color: rgba(0, 0, 0, 0.8);
+            min-height: 130px;
+    }
+
+    .myworld{
+
+    background-image: url("images/map.jpg");
+    min-height:  685px;
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    }
+
+        .overlay1 {
+    
+            background-color: rgba(0, 0, 0, 0.2);
+            min-height: 685px;
+
+            margin-top: -15px;
+        }
+
+        .myproof{
+
+            position: absolute;
+            top: 230px;
+            padding: 30px;
+            margin: 30px;
+
+            background-color: rgba(0, 102, 0,0.8);
+        }
+
+    footer ul li{
+
+        list-style-type: none;
+        
+    }
+
+    footer a{
+
+        text-decoration: none;
+        color: black;
+    }
+
+    footer a:hover{
+
+        color: rgb(255, 0, 0);
+
+    }
+
+    .myfootertext{
+
+
+        font-family: 'Economica', sans-serif;
+        font-size: 20px;
+    }
+
+    .myfooterinfo{
+
+        margin-top: 80px;
+    }
+
+    .secondfooter{
+
+        height: 30px;
+    }
+
+    .myheader{
+
+        background-image: url(images/family7.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .myfirstdiv{
+
+        min-height: 400px;
+        margin-left: 125px;
+    }
+
+    .myseconddiv{
+
+
+        width: 700px;
+        margin-left: 175px;
+        margin-top: -30px;
+
+        position: relative;
+    }
+
+    .myindexdiv{
+
+        z-index: 0;
+        margin-top: -37px;
+    }
+
+    .mygenesis{
+
+        position: absolute;
+        top: 280px;
+        margin-left: 350px;
+    }
+
+    .subgenesis{
+        color: white;
+        position: absolute;
+        top: 330px;
+    }

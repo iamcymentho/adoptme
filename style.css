@@ -16,6 +16,20 @@ body {
     height: 500px;
 }
 
+
+.carouselheader{
+
+    font-family: 'Economica', sans-serif;
+        font-size:40px;
+}
+
+.carouseltext{
+
+    font-family: 'Economica', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+}
+
 .myvision{
 
     background-color:rgb(0, 102, 0);
@@ -207,6 +221,9 @@ top: 70px;
         height: 30px;
     }
 
+           
+            /* about us page styling starts here  */
+
     .myheader{
 
         background-image: url(images/family7.jpeg);
@@ -221,49 +238,6 @@ top: 70px;
         min-height: 500px;
         /* margin-left: 125px; */
     }
-
-    /* .myseconddiv{
-
-
-        width: 700px;
-        margin-left: 175px;
-        margin-top: -30px;
-
-        position: relative;
-    }
-
-    .myindexdiv{
-
-        z-index: 0;
-        margin-top: -37px;
-    } */
-
-    .mygenesis{
-
-        /* position: absolute; */
-        /* top: 280px; */
-        /* margin-left: 300px; */
-    }
-
-    .subgenesis{
-    
-        /* position: absolute; */
-        /* top: 330px; */
-    }
-
-
-        .myrealgenesis {
-    
-            /* position: absolute; */
-            /* top: 830px; */
-            /* margin-left: 300px; */
-        }
-
-                .realsubgenesis {
-        
-                    /* position: absolute; */
-                    /* top: 830px; */
-                }
 
        .himg{
 
@@ -281,6 +255,42 @@ top: 70px;
 
 
 
+            /* contact us page styling starts here */
+
+      .contactheader{
+
+
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        width: 21%;
+
+      }
+
+        
+      .mynumbercontactheading {
+        
+                      font-family: 'Bebas Neue', cursive;
+                      word-spacing: 3px;
+                      letter-spacing: 2px;
+                      font-size: 25px;
+              }
+
+
+      .findanswers  {
+
+        margin-left: 320px;
+      }   
+      
+      .myaccordion{
+
+        margin-left: 200px;
+        width: 100%;
+      }
+
+
+      .contactsection{
+
+        margin-left: 100px;
+      }
 
 
 

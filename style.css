@@ -294,6 +294,92 @@ top: 70px;
 
 
 
+        /* team page styling goes here */
+
+                .myteamheader {
+        
+                    background-image: url(images/team4.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+
+                    height: 400px;
+
+                }
+
+                .myteamoverlay{
+
+                    background-color: rgba(0, 0, 0, 0.8);
+                        min-height: 400px;
+                }
+
+                .teamdisplayheader{
+
+                    font-family: 'Bebas Neue', cursive;
+                        word-spacing: 3px;
+                        letter-spacing: 3px;
+                        font-size: 35px;
+                        
+                        
+
+                }
+
+                .realteam{
+
+                    height: 300px;
+                }
+
+                
+            /* Sign In page styling starts here */
+
+
+              .sectionimg{
+
+                background-image: url(images/login.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+
+
+                    height: 800px;
+
+
+              }
+
+
+
+             .mysigninoverlay {
+            
+            
+                 background-color: rgba(0, 0, 0, 0.8);
+                 min-height: 800px;
+            
+                 }
+
+
+                 
+                 p a{
+
+                    text-decoration: none;
+                    color: black;
+                 }
+
+                 .myformlogin{
+
+                    margin-top: 250px;
+
+                    margin-left: 350px;
+                 }
+
+
+                 .myicons{
+
+                    margin-left: 270px;
+                 }
+            
+                          
 
 
 

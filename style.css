@@ -4,6 +4,16 @@ body {
 
 }
 
+.companycolor{
+
+    background-color: rgb(182, 62, 162);
+}
+
+.companytextcolor {
+
+    color: rgb(182, 62, 162);
+}
+
 .mynavbar{
 
     background-color: rgb(48,142,197);
@@ -330,6 +340,31 @@ top: 70px;
                     height: 300px;
                 }
 
+                .timheader{
+
+                    margin-left: 400px;
+                }
+
+                .timtext{
+
+                    margin-left: 200px;
+                }
+
+                .parentrob{
+
+                    margin-left: 200px;
+                }
+
+                .fancyteam{
+
+                    margin-left: 280px;
+                }
+
+                .fancybutton{
+
+                    margin-left: 100px;
+                }
+
                 
             /* Sign In page styling starts here */
 
@@ -360,7 +395,7 @@ top: 70px;
 
 
                  
-                 p a{
+                  a{
 
                     text-decoration: none;
                     color: black;
@@ -378,16 +413,94 @@ top: 70px;
 
                     margin-left: 270px;
                  }
+
+                 .forgot:hover{
+
+                    color: red;
+                 }
             
-                          
 
 
+             /* Birth Parent page styling */
+
+             .birthparentheader{
+
+
+                font-family: 'Bebas Neue', cursive;
+                    word-spacing: 10px;
+                    letter-spacing: 3px;
+                    font-size: 40px;
+
+
+                    margin-left: 470px;
+                    margin-top: 60px;
+             }
+
+             .alreadyhave{
+
+                        font-family: 'Economica', sans-serif;
+                        font-size: 18px;
+                        font-weight: bold;
+                        
+             
+             }
+
+
+            .alreadyhavefix {
+
+                margin-left: 50px;
+            }
+
+
+             .bpcardwidth{
+
+                width: 50%;
+             }
+
+
+             .birthparentcardtitle {
+            
+                 margin-left: 130px;
+            
+                }
+
+             .birthparentcardsubtitle{
+
+                margin-left: 200px;
+             }
+
+             .myagreement{
+
+                margin-left: 100px;
+             }
+                 
+            .birthmodal{
+
+                margin-left: 130px;
+            }
+
+
+
+                 
+
+            /* Media Queries start here */
 
        @media(max-width:350px  ){
 
             .myimages{
 
-                height: 250px;
+                height: 100px;
+            }
+
+            .homecarousel{
+
+                height: 200px;
+                
+            }
+
+            .mypatvision{
+
+                margin-top: 10px;
             }
 
             .myproof{
@@ -409,6 +522,11 @@ top: 70px;
                 display: none;
             }
 
+            #newsletter{
+
+                display: none;
+            }
+
             .fancyfooter{
 
                 display: none;
@@ -423,6 +541,145 @@ top: 70px;
 
                 display: none;
             }
+
+            .contactheader{
+
+                width: 80%;
+            }
+
+            .questionsrow{
+
+                display: none;
+            }
+
+            .getholdtext{
+
+                font-size: 18px;
+            }
+
+            .fancyfooter{
+
+                display: none;
+            }
+
+            .mysigninnav{
+
+                display: none;
+            }
+
+            .realsignoverlay{
+
+                height: 500px;
+            }
+
+            .mysigninoverlay{
+
+                min-height: 500px;
+            }
+
+          .sectionimg{
+
+            height: 500px;
+            
+          }
+
+
+          /* login query starts here */
+
+                  .myformlogin {
+        
+                      margin-top: 40px;
+        
+                      margin-left: 1px;
+
+                      
+                  }
+
+               .mysignincard{
+
+                display: none;
+               }
+
+
+
+               /* birth parent sign in query starts here */
+
+            .bpcardwidth{
+
+                width: 100%;
+            }
+
+
+
+               .birthparentheader{
+
+                margin-left: 80px;
+               }
+
+               .birthparentcardsubtitle{
+
+
+                margin-left: 70px;
+               }
+
+              .parentinput{
+
+                display: block;
+               }
+            
+               .birthparentcardtitle{
+
+                margin-left: 30px;
+               }
+
+             .myagreement{
+
+                margin-left: 10px;
+             }
+
+             .birthmodal{
+
+                margin-left: 50px;
+             }
+
+             .alreadyhavefix{
+
+                margin-left: 1px;
+             }
+
+
+
+
+
+
+
+             /* team query styling starts from here */
+
+             .timheader{
+
+                margin-left: 50px;
+             }
+
+
+             .timtext{
+
+                margin-left: 10px;
+             }
+
+             .parentrob{
+
+                margin-left: 5px;
+             }
+
+             .fancyteam{
+
+                display: none;
+             }
+
+             .teamdisplayheader{
+
+                font-size: 25px;
+             }
 
        }
 
@@ -462,7 +719,91 @@ top: 70px;
                    width: 100%;
                 }
 
+            
+          
+                .myformlogin {
+            
+                 margin-top: 70px;
+            
+              margin-left: 50px;
+
+              width: 75%;
+            
+            
+          }
+
+                
+          .sectionimg {
+                
+                 height: 600px;
+                
+                 }
+
+           .mysigninoverlay {
+        
+            min-height: 600px;
+        }
+
+                .timheader {
+        
+                    margin-left: 100px;
+                }
+
+                             
+                .timtext {
+                
+                  margin-left: 10px;
+                        
+                }
+
+            .parentrob {
+            
+                margin-left: 75px;
+            }
+
+            .fancyteam {
+            
+                margin-left: 10px;
+                width: 100%;
+            }
+
+
+            .birthparentcardtitle{
+
+                margin-left: 30px;
+               }
+
+             .myagreement{
+
+                margin-left: 50px;
+             }
+
+             .birthmodal{
+
+                margin-left: 50px;
+             }
+
+             .alreadyhavefix{
+
+                margin-left: 1px;
+             }
+            
+
+             .birthparentheader{
+
+                margin-left: 270px;
+               }
+
+               .birthparentcardsubtitle{
+
+
+                margin-left: 70px;
+               }
+
        } 
+
+
+       
 
 
        @media(max-width:990px){
@@ -500,6 +841,59 @@ top: 70px;
         
                     width: 100%;
                 }
+
+
+                                .realsignoverlay {
+                
+                                    height: 600px;
+                                }
+                
+                                .mysigninoverlay {
+                
+                                    min-height: 600px;
+                                }
+                
+                                .sectionimg {
+                
+                                    height: 600px;
+                
+                                }
+                
+              
+                .myformlogin {
+                                            
+                margin-top: 70px;
+                                            
+                margin-left: 50px;
+                                            
+                width: 75%;
+                                            
+                }
+
+                .timheader {
+        
+                    margin-left: 100px;
+                }
+
+                             
+                .timtext {
+                
+                  margin-left: 10px;
+                        
+                }
+
+            .parentrob {
+            
+                margin-left: 75px;
+            }
+
+            .fancyteam {
+            
+                margin-left: 10px;
+                width: 100%;
+            }
+                
+                                
        }
 
 

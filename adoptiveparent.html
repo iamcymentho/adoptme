@@ -167,12 +167,12 @@
                             <div class="row p-2">
                                 <div class="col">
                                     <input type="text" class="form-control " name="firstname" placeholder="First name"
-                                        aria-label="First name">
+                                        aria-label="First name" id="firstname">
                                 </div>
 
                                 <div class="col">
                                     <input type="text" class="form-control " name="lastname" placeholder="Last name"
-                                        aria-label="Last name">
+                                        aria-label="Last name" id="lastname">
                                 </div>
 
 
@@ -182,13 +182,13 @@
                             <div class="row p-2">
                                 <div class="col">
                                     <input type="email" class="form-control " name="email" placeholder="Email address"
-                                        aria-label="email address">
+                                        aria-label="email address" id="emailaddress">
                                 </div>
 
                                 <div class="col">
 
-                                    <input type="date" class="form-control " name="date" placeholder="Last name"
-                                        aria-label="date">
+                                    <input type="date" class="form-control " name="dateofbirth" 
+                                        aria-label="date" id="dateofbirth">
 
                                     <small class=" companytextcolor">Date of birth</small>
                                 </div>
@@ -203,7 +203,7 @@
                             
                                 <div class="col">
                                     <input type="text" class="form-control " name="homeaddress" placeholder="Enter full home address"
-                                        aria-label="home address">
+                                        aria-label="home address" id="homeaddress">
                                 </div>
                             
                             
@@ -218,18 +218,18 @@
                             <div class="row p-2">
                                 <div class="col">
                                     <input type="text" class="form-control " name="username" placeholder="username"
-                                        aria-label="username">
+                                        aria-label="username" id="username">
                                 </div>
 
                                 <div class="col">
                                     <input type="password" class="form-control " name="password" placeholder="password"
-                                        aria-label="password">
+                                        aria-label="password" id="password">
                                 </div>
 
 
                                 <div class="col">
                                     <input type="password" class="form-control " name="confirmpassword"
-                                        placeholder="confirm password" aria-label="confirm password">
+                                        placeholder="confirm password" aria-label="confirm password" id="confirmpassword">
                                 </div>
 
 
@@ -240,16 +240,16 @@
 
                             <div class="row p-2">
                                 <div class="col">
-                                    <input type="file" class="form-control " name="file" placeholder="Email address"
-                                        aria-label="email address" required>
+                                    <input type="file" class="form-control " name="picture" 
+                                        aria-label="email address" id="picture">
 
                                     <small class=" companytextcolor">Upload a picture</small>
                                 </div>
 
                                 <div class="col">
 
-                                    <input type="date" class="form-control " name="date" placeholder="Last name"
-                                        aria-label="date">
+                                    <input type="date" class="form-control " name="dateofreg" 
+                                        aria-label="date" id="dateofreg">
 
                                     <small class=" companytextcolor">Date of registration</small>
                                 </div>
@@ -306,7 +306,7 @@
 
                                                         <div class="col">
                                                             <input type="file" class="form-control " name="dnareport"
-                                                                placeholder="dnareport" aria-label="username">
+                                                                aria-label="dna report" id="dnareport">
 
                                                             <small class=" companytextcolor">Upload FINANCIAL records</small>
                                                         </div>
@@ -318,7 +318,7 @@
                                                     <div class="row p-2">
                                                         <div class="col">
                                                             <input type="text" class="form-control " name="profession"
-                                                                placeholder="Enter Profession" aria-label="profession">
+                                                                placeholder="Enter Profession" aria-label="profession" id="profession">
                                                         </div>
 
                                                         <div class="col">
@@ -326,7 +326,7 @@
                                                             <div class="input-group mb-3">
 
                                                                 <span class="input-group-text">$</span>
-                                                                <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="annual income">
+                                                                <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="annual income" name="income" id="income">
                                                                 <span class="input-group-text">.00</span>
 
                                                             </div>
@@ -353,7 +353,7 @@
                     <div class="col">
                 
                         <div class="col">
-                            <input type="file" class="form-control " name="certificate" placeholder="marriage certificate" aria-label="certificate">
+                            <input type="file" class="form-control " name="certificate"  aria-label="certificate" id="certificate">
 
                             <small class=" companytextcolor">if married , upload certificate</small>
                             
@@ -377,8 +377,8 @@
                         <div class="col">
                     
                             <div class="col">
-                                <input type="file" class="form-control " name="certificate" placeholder="marriage certificate"
-                                    aria-label="certificate">
+                                <input type="file" class="form-control " name="policereport" 
+                                    aria-label="police report" id="policereport">
                     
                                 <small class=" companytextcolor">upload police report, if any.</small>
                     
@@ -414,8 +414,8 @@
                         <div class="col">
                         
                             <div class="col">
-                                <input type="date" class="form-control " name="dateofsubmission" placeholder="dateofsubmission"
-                                    aria-label="dateofsubmission">
+                                <input type="date" class="form-control " name="dateofsubmission" 
+                                    aria-label="dateofsubmission" id="dateofsubmission">
                         
                                 <small class=" companytextcolor">date of submission</small>
                         
@@ -436,7 +436,7 @@
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary"
                                                     data-bs-dismiss="modal">Close</button>
-                                                <button type="submit" class="btn btn-success">Sign Up</button>
+                                                <button type="submit" class="btn btn-success" name="adoptiveParentSignUp">Sign Up</button>
                                             </div>
                                         </div>
                                     </div>

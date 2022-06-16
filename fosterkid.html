@@ -167,12 +167,12 @@
                             <div class="row p-2">
                                 <div class="col">
                                     <input type="text" class="form-control " name="firstname" placeholder="First name"
-                                        aria-label="First name">
+                                        aria-label="First name" id="firstname">
                                 </div>
 
                                 <div class="col">
                                     <input type="text" class="form-control " name="lastname" placeholder="Last name"
-                                        aria-label="Last name">
+                                        aria-label="Last name" id="lastname">
                                 </div>
 
 
@@ -182,13 +182,13 @@
                             <div class="row p-2">
                                 <div class="col">
                                     <input type="email" class="form-control " name="email" placeholder="Email address"
-                                        aria-label="email address">
+                                        aria-label="email address" id="emailaddress">
                                 </div>
 
                                 <div class="col">
 
-                                    <input type="date" class="form-control " name="date" placeholder="Last name"
-                                        aria-label="date">
+                                    <input type="date" class="form-control " name="dateofbirth" 
+                                        aria-label="date" id="dateofbirth">
 
                                     <small class=" companytextcolor">Date of birth</small>
                                 </div>
@@ -212,7 +212,7 @@
                                 </div>
                                 
                                 <div class="col">
-                                    <input type="text" class="form-control " name="hobbies" placeholder="enter hobbies" aria-label="hobbies">
+                                    <input type="text" class="form-control " name="hobbies" placeholder="enter hobbies" aria-label="hobbies" id="hobbies">
                                 </div>
 
 
@@ -228,18 +228,18 @@
                             <div class="row p-2">
                                 <div class="col">
                                     <input type="text" class="form-control " name="username" placeholder="username"
-                                        aria-label="username">
+                                        aria-label="username" id="username">
                                 </div>
 
                                 <div class="col">
                                     <input type="password" class="form-control " name="password" placeholder="password"
-                                        aria-label="password">
+                                        aria-label="password" id="password">
                                 </div>
 
 
                                 <div class="col">
                                     <input type="password" class="form-control " name="confirmpassword"
-                                        placeholder="confirm password" aria-label="confirm password">
+                                        placeholder="confirm password" aria-label="confirm password" id="confirmpassword">
                                 </div>
 
 
@@ -250,16 +250,16 @@
 
                             <div class="row p-2">
                                 <div class="col">
-                                    <input type="file" class="form-control " name="file" placeholder="Email address"
-                                        aria-label="email address" required>
+                                    <input type="file" class="form-control " name="picture"
+                                        aria-label="picture" id="picture">
 
                                     <small class=" companytextcolor">Upload a picture</small>
                                 </div>
 
                                 <div class="col">
 
-                                    <input type="date" class="form-control " name="date" placeholder="Last name"
-                                        aria-label="date">
+                                    <input type="date" class="form-control " name="dateofreg"
+                                        aria-label="date" id="dateofreg">
 
                                     <small class=" companytextcolor">Date of registration</small>
                                 </div>
@@ -316,7 +316,7 @@
 
                                                         <div class="col">
                                                             <input type="file" class="form-control " name="dnareport"
-                                                                placeholder="dnareport" aria-label="username">
+                                                                 aria-label="dna report" id="dnareport">
 
                                                             <small class=" companytextcolor">Upload DNA report</small>
                                                         </div>
@@ -328,12 +328,12 @@
                                                     <div class="row p-2">
                                                         <div class="col">
                                                             <input type="text" class="form-control " name="bloodgroup"
-                                                                placeholder="Blood group" aria-label="username">
+                                                                placeholder="Blood group" aria-label="blood group" id="bloodgroup">
                                                         </div>
 
                                                         <div class="col">
-                                                            <input type="date" class="form-control " name="password"
-                                                                placeholder="date of submission" aria-label="date">
+                                                            <input type="date" class="form-control " name="dateofsubmission"
+                                                                 aria-label="date" id="dateofsubmission">
 
                                                             <small class=" companytextcolor">date of submission</small>
                                                         </div>
@@ -349,7 +349,7 @@
                                                     
                                                     
                                                         <div class="col">
-                                                            <input type="text" class="form-control " name="allergies" placeholder="state allergies" aria-label="allergies">
+                                                            <input type="text" class="form-control " name="allergies" placeholder="state allergies" aria-label="allergies" id="allergies">
                                                         </div>
                                                     
                                                         <!-- row ends here -->
@@ -360,7 +360,7 @@
                                                 <div class="row p-2">
                                                 
                                                 
-                                                    <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="State other medical challenges"></textarea>
+                                                    <textarea name="medicalchallenges" id="medicalchallenges" cols="30" rows="5" class="form-control" placeholder="State other medical challenges"></textarea>
                                                 
                                                     <!-- row ends here -->
                                                 </div>
@@ -377,7 +377,7 @@
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary"
                                                     data-bs-dismiss="modal">Close</button>
-                                                <button type="submit" class="btn btn-success">Sign Up</button>
+                                                <button type="submit" name="fosterKidSignUp" class="btn btn-success">Sign Up</button>
                                             </div>
                                         </div>
                                     </div>

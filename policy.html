@@ -59,16 +59,10 @@
             letter-spacing: 2px;
             font-size: 20px;
 
-            position: sticky;
+            /* position: sticky;
             top: 5px;
-            z-index: 1;
+            z-index: 1; */
 
-        }
-
-
-        .accordion-button {
-
-            color: white;
         }
     </style>
 
@@ -83,7 +77,7 @@
 
     <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-1 shadow mysigninnav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-1 shadow">
 
             <!--NavBar starts here-->
             <div class="container-fluid">
@@ -97,8 +91,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+
                         <li class="nav-item">
-                            <a class="nav-link " href="about.html">About</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
 
                         <li class="nav-item">
@@ -121,7 +116,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active " href="signin.html" tabindex="-1" aria-disabled="true">Sign In</a>
+                            <a class="nav-link " href="signin.html" tabindex="-1" aria-disabled="true">Sign In</a>
                         </li>
 
                         <li class="nav-item">
@@ -129,7 +124,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link  " href="policy.html" tabindex="-1" aria-disabled="true">Policy</a>
+                            <a class="nav-link active " href="policy.html" tabindex="-1" aria-disabled="true">Policy</a>
                         </li>
 
                     </ul>
@@ -144,113 +139,85 @@
         </nav>
 
 
-            <section class="sectionimg">
 
-                <!-- section goes here -->
-
-
-                <div class="mysigninoverlay realsignoverlay">
+      
 
 
-                    <div class="row">
 
 
-                            <div class="col-md-5 myformlogin">
-
-                                <div class="card p-3">
-
-                                    <div class="card-title">
-
-                                        <h3 class="mt-3 htext" style="margin-left:20px ;">Sign In To AdoptMe</h3>
-                                    </div>
-
-                                    <div class="card-body">
-
-                                        <form action="" method="get">
-
-                                            <input type="email" name="email" class="form-control " placeholder="Enter email" id="email">
-
-                                            <input type="email" name="email" class="form-control  mt-3 mb-2" placeholder="Enter password" id="email">
-
-                                           <a href="forgotpassword.html" style="color:black ;"> <small class="mt-3 forgot">forgot password?</small></a>
-
-                                            <div class="d-grid gap-2">
-                                            <button type="submit" name="signInBtn" class="btn companycolor mt-5 mytext  rounded-2" style="color: white;">Sign in</button>
-                                            </div>
 
 
-                                            <div class="mt-2 mb-5">
-                                            <small>Don't have an account? <a href="#" style="color: red;">Sign Up</a></small>
-                                          </div>
+        <footer class="mt-5 bg-white p-3 text-center shadow ">
 
-                                        </form>
+            <div class="row fancyfooter">
 
-                                        
+                <div class="col-md-4 mt-4">
 
-                                        <!-- card body ends here -->
-                                    </div>
+                    <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Information for:</h3>
 
+                    <ul class="myfootertext mt-3">
 
-                                    <!-- card ends here -->
-                                </div>
+                        <li class="mt-3"><a href="#">families</a></li>
 
+                        <li class="mt-3"><a href="#">Professionals</a></li>
 
-                                <div class="card mt-3 mysignincard">
-
-
-                                        <div class="card-body">
-                                            <div class="card-text">
-                                                <small class="text-muted signup"> Sign Up with?<a href="#"><i class="fa-brands fa-google-plus  myicons" style="color:green"></i></a>  <a href="#"><i class="fa-brands fa-telegram" style="color:green"></i></a></small>
-                                            </div>
-
-                                            
-                                        </div>
-                                    <!-- card ends here -->
-                                </div>
-                            </div>
+                        <li class="mt-3"><a href="#">Media</a></li>
+                    </ul>
+                </div>
 
 
-                            
-                        
-                        <!-- row ends here -->
+                <div class="col-md-4 mt-4">
 
-                    </div>
+                    <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Make enquiries about:</h3>
 
-                    <!-- overlay ends here -->
+                    <ul class="myfootertext mt-3">
+
+                        <li class="mt-3"><a href="#">Children up for adoption</a></li>
+
+                        <li class="mt-3"><a href="#">Whocan adopt/foster</a></li>
+
+                        <li class="mt-3"><a href="#">How to get started</a></li>
+
+                        <li class="mt-3"><a href="#">Children in foster care</a></li>
+
+
+                    </ul>
                 </div>
 
 
 
-                <!-- section ends here -->
-            </section>
+                <div class="col-md-4 mt-4">
+
+                    <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Trying to:</h3>
+
+                    <ul class="mt-3 myfootertext">
+
+                        <li class="mt-3"><a href="#">Register</a></li>
+
+                        <li class="mt-3"><a href="#">Login</a></li>
+
+                        <li class="mt-3"><a href="#">Find a foster family</a></li>
+                    </ul>
+                </div>
+
+
+               
+
+                <!--row ends here-->
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 mt-4  border-top border-success secondfooter">
+                    <p class="myfootertext mt-2">Designed by Cymentho. &copy;Copyright,2022</p>
+                </div>
+            </div>
 
 
 
-       
 
+        </footer>
 
-
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-
-       
-
-
-
-        
-                
 
 
         <!--container ends here -->

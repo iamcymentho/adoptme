@@ -513,6 +513,55 @@ top: 70px;
             }
 
 
+            /* admin panel styling starts here */
+
+            .navbar {
+
+            font-family: 'Bebas Neue', cursive;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            font-size: 20px;
+
+            position: sticky;
+            top: 5px;
+            z-index: 1;
+
+        }
+
+        .navbar:hover{
+
+            color: black;
+        }
+
+        .myadmintext{
+
+            font-family: 'Bebas Neue', cursive;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+            font-size: 15px;
+        }
+
+        .cardnumber{
+
+            font-size: 70px;
+            font-family: 'Bebas Neue', cursive;
+            margin-left: 110px;
+        }
+
+
+        .subcardnumber{
+
+            font-size: 70px;
+            font-family: 'Bebas Neue', cursive;
+            margin-left: 80px;
+        }
+
+        #navbarScroll{
+
+            margin-left: 500px;
+        }
+
+
 
                  
 
@@ -669,14 +718,10 @@ top: 70px;
 
                 margin-left: 30px;
                }
-
              .myagreement{
-
                 margin-left: 10px;
              }
-
              .birthmodal{
-
                 margin-left: 50px;
              }
 

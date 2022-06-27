@@ -34,16 +34,15 @@
 
 
     <!-- bootstrap CSS stylesheet-->
-
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
+     <!-- external stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
-
-
+        <!-- font aswesome -->
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 
-
+        <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -51,6 +50,7 @@
         rel="stylesheet">
 
 
+        <!-- internal styling -->
     <style type="text/css">
         .navbar {
 
@@ -75,378 +75,281 @@
 
 <body>
 
-
-
-
     <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-1 shadow mysigninnav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light mt-1 shadow mysigninnav">
+    <!--NavBar starts here-->
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><span
+                style="color: rgb(182, 62, 162); font-size: 30px;">AdoptMe</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="about.html">About</a>
+                </li>
 
-            <!--NavBar starts here-->
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><span
-                        style="color: rgb(182, 62, 162); font-size: 30px;">AdoptMe</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                        
-
-                        <li class="nav-item">
-                            <a class="nav-link " href="about.html">About</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Register
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item active" href="birthparent.html">Birth parent</a></li>
+                        <li><a class="dropdown-item" href="adoptiveparent.html">Adoptive Parent</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="contactus.html">Contact</a>
-                        </li>
-
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Register
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item active" href="birthparent.html">Birth parent</a></li>
-                                <li><a class="dropdown-item" href="adoptiveparent.html">Adoptive Parent</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="fosterkid.html">Kids up for adoption</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  " href="signin.html" tabindex="-1" aria-disabled="true">Sign
-                                In</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link " href="team.html" tabindex="-1" aria-disabled="true">Team</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link  " href="policy.html" tabindex="-1" aria-disabled="true">Policy</a>
-                        </li>
-
+                        <li><a class="dropdown-item" href="fosterkid.html">Kids up for adoption</a></li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark" type="submit">Search</button>
-                    </form>
-                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="signin.html" tabindex="-1" aria-disabled="true">Sign
+                        In</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="team.html" tabindex="-1" aria-disabled="true">Team</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link  " href="policy.html" tabindex="-1" aria-disabled="true">Policy</a>
+                </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- navBar ends here-->
+</nav>
+
+
+    <section>
+<!-- first section starts here -->
+
+    <div class="row">
+
+<div class="col-md-12">
+
+    <h1 class="companytextcolor birthparentheader">AdoptMe</h1>
+</div>
+
+
+<div class="col-md-12 mt-4 ">
+
+    <div class="card  shadow m-auto birthparent bpcardwidth">
+
+        <div class="card-title ">
+
+            <h3 class="mb-0 htext mt-3 birthparentcardtitle">Creat account as birth parent</h3>
+            <small class="birthparentcardsubtitle">It's quick and easy</small>
+            <hr>
+        </div>
+
+    <form action="" method="POST" enctype="multipart/form-data">  
+        
+    <div id="result" class="mb-3"></div>
+
+<div class="row p-2 gy-3">
+    <div class="col-md">
+        <input type="text" class="form-control parentinput " name="firstname" placeholder="First name"
+            aria-label="first name" id="firstname">
+    </div>
+
+    <div class="col-md">
+        <input type="text" class="form-control parentinput " name="lastname" placeholder="Last name"
+            aria-label="lastname" id="lastname">
+    </div>
+    <!-- row ends here -->
+</div>
+
+
+<div class="row p-2 gy-3">
+    <div class="col">
+        <input type="email" class="form-control parentinput " name="email" placeholder="Email address"
+            aria-label="email address" id="email">
+    </div>
+
+    <div class="col">
+        <input type="date" class="form-control " name="dateofbirth" aria-label="date" id="dateofbirth">
+        <small class=" companytextcolor">Date of birth</small>
+    </div>
+
+
+    <!-- row ends here -->
+</div>
+
+
+<div class="row p-2 gy-3">
+    <div class="col">
+        <input type="text" class="form-control " name="homeaddress" placeholder="Enter full home address"
+            aria-label="home address" id="homeaddress">
+    </div>
+    <!-- row ends here -->
+</div>
+
+
+<div class="row p-2 gy-3">
+    <div class="col-md">
+        <input type="text" class="form-control " name="username" placeholder="username" aria-label="username"
+            id="username">
+    </div>
+
+    <div class="col-md">
+        <input type="password" class="form-control " name="password" placeholder="password" aria-label="password"
+            id="password">
+    </div>
+
+    <div class="col-md">
+        <input type="password" class="form-control " name="confirmpassword" placeholder="confirm password"
+            aria-label="confirm password" id="confirmpassword">
+    </div>
+
+
+    <!-- row ends here -->
+</div>
+
+
+<div class="row p-2 gy-3">
+    <div class="col">
+        <input type="file" class="form-control " name="picture" aria-label="picture" id="picture">
+
+        <small class=" companytextcolor">Upload a picture</small>
+    </div>
+
+    <div class="col">
+
+        <select name="gender" id="gender" class="form-select">
+
+            <option value="">choose gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">others</option>
+        </select>
+    </div>
+
+    <!-- row ends here -->
+</div>
+
+
+<div class="row p-2 gy-3">
+
+    <div class="col">
+        <input type="file" class="form-control " name="dnareport" placeholder="dnareport" aria-label="dnareport"
+            id="dnareport">
+        <small class=" companytextcolor">Upload DNA report</small>
+    </div>
+
+    <div class="col">
+        <input type="text" class="form-control " name="bloodgroup" placeholder="Blood group" aria-label="bloodgroup"
+            id="bloodgroup">
+    </div>
+
+    <!-- row ends here -->
+</div>
+
+
+<div class="row p-2">
+    <div class="col-md-12">
+        <textarea name="medicalchallenges" id="medicalchallenges" cols="30" rows="5" class="form-control"
+            placeholder="Enter medical status/challenges, e.g. I'm hale and healthy"></textarea>
+    </div>
+    <!-- row ends here -->
+</div>
+
+
+<div class="row">
+    <div class="col-md-8 mt-4 myagreement ">
+    <input type="checkbox" name="checkbox" id="checkbox" class="form-check-input">
+        <small class="text-muted">By clicking sign up, you agree to our Terms, Data Policy and Cookie Policy. You may
+            receive SMS notifications from us
+            and can opt out at any time.</small>
+    </div>
+
+    <!-- row ends here -->
+</div>
+                                    
+                                    
+                                    
+<div class="row">
+    <div class="col-md-12 mt-4 mb-3 birthmodal">
+        <input type="button" name="btnbirthparent" class=" btn text-white companycolor w-50 " id="btnbirthparent" value="Sign up" disabled>
+        <a href="signin.html">
+            <h5 class="mt-3 alreadyhave alreadyhavefix" style="color:green;">Already have an account?</h5>
+        </a>
+    </div>
+</div>
+
+  </form>
+                           
+        </div>
+
+      <!-- row ends here -->
+        </div>
+
+        <!-- card ends here -->
             </div>
 
-            <!-- navBar ends here-->
-        </nav>
+    
 
-
-                <section>
-                    <!-- first section starts here -->
-
-                    <div class="row">
-
-                        <div class="col-md-12">
-
-                            <h1 class="companytextcolor birthparentheader">AdoptMe</h1>
-                        </div>
-
-
-                        <div class="col-md-12 mt-4 ">
-
-                            <div class="card  shadow m-auto birthparent bpcardwidth">
-
-                                <div class="card-title ">
-
-                                    <h3 class="mb-0 htext mt-3 birthparentcardtitle">Creat account as birth parent</h3>
-                                    <small class="birthparentcardsubtitle">It's quick and easy</small>
-                                    <hr>
-                                </div>
-                                
-
-                                <form action="" method="">
-
-                                    <div class="row p-2 gy-3">
-                                        <div class="col-md">
-                                            <input type="text" class="form-control parentinput " name="firstname" placeholder="First name" aria-label="First name" id="firstname">
-                                        </div>
-
-                                        <div class="col-md">
-                                            <input type="text" class="form-control parentinput " name="lastname" placeholder="Last name" aria-label="lastname" id="lastname">
-                                        </div>
-
-
-                                        <!-- row ends here -->
-                                    </div>
-
-                                    <div class="row p-2 gy-3">
-                                        <div class="col">
-                                            <input type="email" class="form-control parentinput " name="email" placeholder="Email address" aria-label="email address" id="email">
-                                        </div>
-                                    
-                                        <div class="col">
-                                            
-                                            <input type="date" class="form-control " name="dateofbirth"  aria-label="date" id="dateofbirth">
-
-                                            <small class=" companytextcolor">Date of birth</small>
-                                        </div>
-                                    
-                                    
-                                        <!-- row ends here -->
-                                    </div>
-
-
-
-                                    <div class="row p-2 gy-3">
-
-                                        <div class="col">
-                                            <input type="text" class="form-control " name="homeaddress" placeholder="Enter full home address" aria-label="home address" id="homeaddress">
-                                        </div>
-                                    
-                                       
-                                    
-                                        <!-- row ends here -->
-                                    </div>
-
-
-
-
-
-
-                                    <div class="row p-2 gy-3">
-                                        <div class="col-md">
-                                            <input type="text"  class="form-control " name="username" placeholder="username" aria-label="username" id="username">
-                                        </div>
-                                    
-                                        <div class="col-md">
-                                            <input type="password" class="form-control " name="password" placeholder="password" aria-label="password" id="password">
-                                        </div>
-
-
-                                        <div class="col-md">
-                                            <input type="password" class="form-control " name="confirmpassword" placeholder="confirm password" aria-label="confirm password" id="confirmpassword">
-                                        </div>
-                                    
-                                    
-                                        <!-- row ends here -->
-                                    </div>
-
-
-
-                                    <div class="row p-2 gy-3">
-                                        <div class="col">
-                                            <input type="file" class="form-control " name="picture"  aria-label="picture" id="picture" >
-
-                                            <small class=" companytextcolor">Upload a picture</small>
-                                        </div>
-                                    
-                                        <div class="col">
-                                    
-                                            <input type="date" class="form-control " name="dateofreg"  aria-label="date" id="dateofreg">
-                                    
-                                            <small class=" companytextcolor">Date of registration</small>
-                                        </div>
-                                    
-                                    
-                                        <!-- row ends here -->
-                                    </div>
-                                </form>
-
-                                    <div class="row">
-                                        <div class="col-md-8 mt-4 myagreement ">
-
-                                            <small class="text-muted">By clicking Continue, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us
-                                            and can opt out at any time.</small>
-                                        </div>
-
-                                        <!-- row ends here -->
-                                    </div>
-
-
-                     <div class="row">
-
-                 <div class="col-md-12 mt-4 mb-3 birthmodal" >
-
-
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn companycolor text-white w-50" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        Continue
-                    </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header bg-success">
-                                    <h5 class="modal-title birthparentcardtitle text-white" id="staticBackdropLabel" style="margin-left:70px ;">BIRTH PARENT MEDICAL RECORDS</h5>
-                                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-
-                                    <!-- modal body goes here -->
-                                <div class="modal-body">
-                                    
-                                    <form action="" method="get">
-
-
-                                            <div class="row p-2">
-
-                                                <div class="col">
-                                                    <input type="file" class="form-control " name="dnareport" placeholder="dnareport" aria-label="dnareport" id="bloodgroup">
-
-                                                    <small class=" companytextcolor">Upload DNA report</small>
-                                                </div>
-                                                
-                                                <!-- row ends here -->
-                                                </div>
-
-
-                                                <div class="row p-2">
-                                                    <div class="col">
-                                                        <input type="text" class="form-control " name="bloodgroup" placeholder="Blood group" aria-label="bloodgroup" id="bloodgroup">
-                                                    </div>
-                                                
-                                                    <div class="col">
-                                                        <input type="date" class="form-control " name="dateofsubmission" placeholder="date of submission" aria-label="date" id="dateofsubmission">
-
-                                                        <small class=" companytextcolor">date of submission</small>
-                                                    </div>
-                                                
-                                                
-                                                
-                                                    <!-- row ends here -->
-                                                </div>
-
-
-
-                                                <div class="row p-2">
-                                                    
-                                                
-                                                 <textarea name="medicalchallenges" id="medicalchallenges" cols="30" rows="5" class="form-control" placeholder="Enter medical challenges"></textarea>
-                                                
-                                                    <!-- row ends here -->
-                                                </div>
-
-                                    </form>
-
-                                    <!-- modal body ends here -->
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-success" name="birthParentSignUp">Sign Up</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                 
-
-                <a href="signin.html"><h5 class="mt-3 alreadyhave alreadyhavefix" style="color:green;">Already have an account?</h5></a>
-                                            </div>
-
-                                        <!-- row ends here -->
-                                    </div>
-
-                                <!-- card ends here -->
-                            </div>
-
-
-                        </div>
-
-                        <!-- row ends here -->
-                    </div>
-
-
+        <!-- row ends here -->
+            </div>
                     <!-- first section ends here -->
                 </section>
 
+<footer class="mt-5 bg-white p-3 text-center shadow ">
+    <!--footer starts here-->
+    <div class="row fancyfooter">
+        <div class="col-md-4 mt-4">
+            <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Information for:</h3>
+            <ul class="myfootertext mt-3">
+                <li class="mt-3"><a href="#">families</a></li>
+                <li class="mt-3"><a href="#">Professionals</a></li>
+                <li class="mt-3"><a href="#">Media</a></li>
+            </ul>
+        </div>
+
+
+        <div class="col-md-4 mt-4">
+            <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Make enquiries about:</h3>
+            <ul class="myfootertext mt-3">
+                <li class="mt-3"><a href="#">Children up for adoption</a></li>
+                <li class="mt-3"><a href="#">Whocan adopt/foster</a></li>
+                <li class="mt-3"><a href="#">How to get started</a></li>
+                <li class="mt-3"><a href="#">Children in foster care</a></li>
+            </ul>
+        </div>
 
 
 
+        <div class="col-md-4 mt-4">
+            <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Trying to:</h3>
+            <ul class="mt-3 myfootertext">
+                <li class="mt-3"><a href="#">Register</a></li>
+                <li class="mt-3"><a href="#">Login</a></li>
+                <li class="mt-3"><a href="#">Find a foster family</a></li>
+            </ul>
+        </div>
+        <!--row ends here-->
+    </div>
 
-
-
-
-
-                    <footer class="mt-5 bg-white p-3 text-center shadow ">
-                    
-                        <!--footer starts here-->
-                    
-                        <div class="row fancyfooter">
-                    
-                            <div class="col-md-4 mt-4">
-                    
-                                <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Information for:</h3>
-                    
-                                <ul class="myfootertext mt-3">
-                    
-                                    <li class="mt-3"><a href="#">families</a></li>
-                    
-                                    <li class="mt-3"><a href="#">Professionals</a></li>
-                    
-                                    <li class="mt-3"><a href="#">Media</a></li>
-                                </ul>
-                            </div>
-                    
-                    
-                            <div class="col-md-4 mt-4">
-                    
-                                <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Make enquiries about:</h3>
-                    
-                                <ul class="myfootertext mt-3">
-                    
-                                    <li class="mt-3"><a href="#">Children up for adoption</a></li>
-                    
-                                    <li class="mt-3"><a href="#">Whocan adopt/foster</a></li>
-                    
-                                    <li class="mt-3"><a href="#">How to get started</a></li>
-                    
-                                    <li class="mt-3"><a href="#">Children in foster care</a></li>
-                    
-                    
-                                </ul>
-                            </div>
-                    
-                    
-                    
-                            <div class="col-md-4 mt-4">
-                    
-                                <h3 class="text-decoration-underline text-muted mt-3 mydisplayheading">Trying to:</h3>
-                    
-                                <ul class="mt-3 myfootertext">
-                    
-                                    <li class="mt-3"><a href="#">Register</a></li>
-                    
-                                    <li class="mt-3"><a href="#">Login</a></li>
-                    
-                                    <li class="mt-3"><a href="#">Find a foster family</a></li>
-                                </ul>
-                            </div>
-                    
-                    
-                           
-                            <!--row ends here-->
-                        </div>
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 mt-4  border-top border-success secondfooter">
-                                <p class="myfootertext mt-2">Designed by Cymentho. &copy;Copyright,2022</p>
-                            </div>
-                        </div>
-                    
-                    
-                    
-                        <!--footer starts here-->
-                    
-                    </footer>
-
-
-
+    <div class="row">
+        <div class="col-md-12 mt-4  border-top border-success secondfooter">
+            <p class="myfootertext mt-2">Designed by Cymentho. &copy;Copyright,2022</p>
+        </div>
+    </div>
+    <!--footer starts here-->
+</footer>
 
 
 
@@ -454,10 +357,13 @@
     </div>
 
 
+    <!-- jquery script file -->
+    <script type="text/javascript" src="jquery.min.js"></script>
 
-
+        <!-- external script  goes here -->
+        <script type="text/javascript" src="app.js"></script>
+        
     <!-- Bootstrap java script goes here-->
-
     <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 
 

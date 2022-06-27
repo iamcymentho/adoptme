@@ -52,7 +52,7 @@
 
 
     <style type="text/css">
-        .navbar {
+        /* .navbar {
 
             font-family: 'Bebas Neue', cursive;
             word-spacing: 5px;
@@ -63,6 +63,11 @@
             top: 5px;
             z-index: 1;
 
+        }
+
+        .navbar:hover{
+
+            color: black;
         }
 
         .myadmintext{
@@ -87,6 +92,11 @@
             font-family: 'Bebas Neue', cursive;
             margin-left: 80px;
         }
+
+        #navbarScroll{
+
+            margin-left: 500px;
+        } */
         
     </style>
 
@@ -102,17 +112,17 @@
     <div class="container-fluid">
 
 
-        <nav class="navbar navbar-light bg-light">
+        <!-- <nav class="navbar navbar-dark bg-dark shadow">
 
             <div class="container-fluid">
-                <a class="navbar-brand"><i class="fa-solid fa-gear"></i>Dashboard</a>
+                <a class="navbar-brand"></i>ADOPTME</a>
                 <form class="d-flex">
 
                     <a class="navbar-brand"><i class="fa-solid fa-user"></i> Admin</a>
 
                   <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li><a class="dropdown-item " href="adminlogin.html"><i class="fa-solid fa-right-from-bracket"></i> logout</a></li>
+                    <li><a class="dropdown-item text-white m-1 " href="adminlogin.html"><i class="fa-solid fa-right-from-bracket"></i> logout</a></li>
                   </ul>
 
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -120,7 +130,43 @@
                 </form>
             </div>
 
-        </nav>
+        </nav> -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sshadow ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ADOPTME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="adminpanel.html">Dashboard</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="admintotalrequest.html">Totalrequest</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="totaladoption.html">Totaladoption</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                    
+                    
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
 
         <section>
@@ -342,21 +388,21 @@
 
             <!-- container ends here -->
             </div>
-            <!-- second section starts here -->
+            <!-- first section ends here -->
         </section>
 
 
 
 
         <section>
-            <!-- third section starts here -->
+            <!-- second section starts here -->
 
             <div class="container">
 
 
                 <div class="row">
 
-                    <div class="col-md-9 mt-5">
+                    <div class="col-md-12 mt-5">
 
                         <div class="card">
 
@@ -378,6 +424,7 @@
                                                 <th>Last Name </th>
                                                 <th>Email</th>
                                                 <th>Date</th>
+                                                <th>Gender</th>
                                                 <th>Details</th>
                                                 <th>Status</th>
                                             </tr>
@@ -391,6 +438,7 @@
                                                 <td>Cymentho</td>
                                                 <td>matthew@cymentho.com</td>
                                                 <td>18 -06 -2022</td>
+                                                <td>Male</td>
                                                 <td>A 5-7 years old healthy boy.</td>
                                                 <td>
                                                     <input type="submit" name="accept" value="accept" class="btn btn-success">
@@ -405,6 +453,7 @@
                                                 <td>Blaque</td>
                                                 <td>michael@blaque.com</td>
                                                 <td>18 -06 -2022</td>
+                                                <td>Male</td>
                                                 <td>A 7-9 years old healthy girl</td>
                                                 <td>
                                                     <input type="submit" name="accept" value="accept" class="btn btn-success">
@@ -419,6 +468,7 @@
                                                 <td>Prince</td>
                                                 <td>young@prince.com</td>
                                                 <td>18 -06 -2022</td>
+                                                <td>Male</td>
                                                 <td>A 9-10 years old boy or girl</td>
                                                 <td>
                                                     <input type="submit" name="accept" value="accept" class="btn btn-success">
@@ -433,6 +483,7 @@
                                                 <td>Brown</td>
                                                 <td>young@brown.com</td>
                                                 <td>18 -06 -2022</td>
+                                                <td>Male</td>
                                                 <td>A 5 years old beautiful girl</td>
                                                 <td>
                                                     <input type="submit" name="accept" value="accept" class="btn btn-success">
@@ -447,6 +498,7 @@
                                                 <td>Law</td>
                                                 <td>the@law.com</td>
                                                 <td>18 -06 -2022</td>
+                                                <td>Male</td>
                                                 <td>A 12 years old girl</td>
                                                 <td>
                                                     <input type="submit" name="accept" value="accept" class="btn btn-success">
@@ -462,6 +514,7 @@
                                                 <td>Musk</td>
                                                 <td>elon@musk.com</td>
                                                 <td>18 -06 -2022</td>
+                                                <td>Male</td>
                                                 <td>A 10 years old boy</td>
                                                 <td>
                                                     <input type="submit" name="accept" value="accept" class="btn btn-success">
@@ -477,6 +530,7 @@
                                                 <td>Gate</td>
                                                 <td>bill@gate.com</td>
                                                 <td>18 -06 -2022</td>
+                                                <td>Male</td>
                                                 <td>A 7 years old girl</td>
                                                 <td>
                                                     <input type="submit" name="accept" value="accept" class="btn btn-success">
@@ -505,7 +559,7 @@
 
                 </div>
 
-            <!-- third section ends here -->
+            <!-- second section ends here -->
         </section>
 
        

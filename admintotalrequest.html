@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <title> Put your babies up for adoption || Adopt me</title>
+
+    <!-- required meta tags-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- facebook meta tags-->
+    <meta property="og:sitename" content="personalwebpage">
+    <meta property="og:url " content="personalwebpage.com">
+    <meta property="og:image " content="images/newrounded.jpeg">
+    <meta property="og:width " content="">
+    <meta property="og:height " content="">
+    <meta property="og:type " content="">
+    <meta property="og:locale " content="">
+    <meta property="og:fb:admins " content="">
+
+
+    <!-- twitter meta tags-->
+    <meta name="twitter.site" content="">
+    <meta name="twitter.title" content="">
+    <meta name="twitter.name" content="">
+    <meta name="twitter.card" content="">
+    <meta name="twitter.discription" content="">
+
+
+    <!-- bootstrap CSS stylesheet-->
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=EB+Garamond:ital@1&family=Economica&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+
+    <style type="text/css">
+        /* .navbar {
+
+            font-family: 'Bebas Neue', cursive;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            font-size: 20px;
+
+            position: sticky;
+            top: 5px;
+            z-index: 1;
+
+        }
+
+        .navbar:hover {
+
+            color: black;
+        }
+
+        .myadmintext {
+
+            font-family: 'Bebas Neue', cursive;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+            font-size: 15px;
+        }
+
+        .cardnumber {
+
+            font-size: 70px;
+            font-family: 'Bebas Neue', cursive;
+            margin-left: 110px;
+        }
+
+
+        .subcardnumber {
+
+            font-size: 70px;
+            font-family: 'Bebas Neue', cursive;
+            margin-left: 80px;
+        }
+
+        #navbarScroll {
+
+            margin-left: 700px;
+        } */
+    </style>
+
+</head>
+
+
+
+<body>
+
+
+
+
+    <div class="container-fluid">
+
+
+        <!-- <nav class="navbar navbar-dark bg-dark shadow">
+
+            <div class="container-fluid">
+                <a class="navbar-brand"></i>ADOPTME</a>
+                <form class="d-flex">
+
+                    <a class="navbar-brand"><i class="fa-solid fa-user"></i> Admin</a>
+
+                  <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li><a class="dropdown-item text-white m-1 " href="adminlogin.html"><i class="fa-solid fa-right-from-bracket"></i> logout</a></li>
+                  </ul>
+
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+
+        </nav> -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ADOPTME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="adminpanel.html">Dashboard</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="admintotalrequest.html">Totalrequest</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="totaladoption.html">Totaladoption</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        
+        <section>
+            <!-- second section starts here -->
+
+            <div class="container">
+
+
+                <div class="row">
+
+                    <div class="col-md-12 mt-5">
+
+                        <div class="card">
+
+                            <div class="card-header bg-secondary ">
+
+                                <h3 class="myadmintext text-white">Latest requests</h3>
+                            </div>
+
+                            <div class="card-body">
+
+                                <div class="card-text">
+
+                                    <table class="table table-striped table-hover table-bordered">
+
+                                        <thead>
+                                            <tr class="myadmintext text-muted">
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name </th>
+                                                <th>Email</th>
+                                                <th>Date</th>
+                                                <th>Gender</th>
+                                                <th>Details</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody class="myadmintext">
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Matthew </td>
+                                                <td>Cymentho</td>
+                                                <td>matthew@cymentho.com</td>
+                                                <td>18 -06 -2022</td>
+                                                <td>Male</td>
+                                                <td>A 5-7 years old healthy boy.</td>
+                                                <td>
+                                                    <input type="submit" name="accept" value="accept"
+                                                        class="btn btn-success">
+
+                                                    <input type="submit" name="accept" value="decline"
+                                                        class="btn btn-danger">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Michael</td>
+                                                <td>Blaque</td>
+                                                <td>michael@blaque.com</td>
+                                                <td>18 -06 -2022</td>
+                                                <td>Male</td>
+                                                <td>A 7-9 years old healthy girl</td>
+                                                <td>
+                                                    <input type="submit" name="accept" value="accept"
+                                                        class="btn btn-success">
+
+                                                    <input type="submit" name="accept" value="decline"
+                                                        class="btn btn-danger">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Young</td>
+                                                <td>Prince</td>
+                                                <td>young@prince.com</td>
+                                                <td>18 -06 -2022</td>
+                                                <td>Male</td>
+                                                <td>A 9-10 years old boy or girl</td>
+                                                <td>
+                                                    <input type="submit" name="accept" value="accept"
+                                                        class="btn btn-success">
+
+                                                    <input type="submit" name="accept" value="decline"
+                                                        class="btn btn-danger">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Young</td>
+                                                <td>Brown</td>
+                                                <td>young@brown.com</td>
+                                                <td>18 -06 -2022</td>
+                                                <td>Male</td>
+                                                <td>A 5 years old beautiful girl</td>
+                                                <td>
+                                                    <input type="submit" name="accept" value="accept"
+                                                        class="btn btn-success">
+
+                                                    <input type="submit" name="accept" value="decline"
+                                                        class="btn btn-danger">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>5</td>
+                                                <td>The</td>
+                                                <td>Law</td>
+                                                <td>the@law.com</td>
+                                                <td>18 -06 -2022</td>
+                                                <td>Male</td>
+                                                <td>A 12 years old girl</td>
+                                                <td>
+                                                    <input type="submit" name="accept" value="accept"
+                                                        class="btn btn-success">
+
+                                                    <input type="submit" name="accept" value="decline"
+                                                        class="btn btn-danger">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+
+                                                <td>6</td>
+                                                <td>Elon</td>
+                                                <td>Musk</td>
+                                                <td>elon@musk.com</td>
+                                                <td>18 -06 -2022</td>
+                                                <td>Male</td>
+                                                <td>A 10 years old boy</td>
+                                                <td>
+                                                    <input type="submit" name="accept" value="accept"
+                                                        class="btn btn-success">
+
+                                                    <input type="submit" name="accept" value="decline"
+                                                        class="btn btn-danger">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+
+                                                <td>7</td>
+                                                <td>Bill</td>
+                                                <td>Gate</td>
+                                                <td>bill@gate.com</td>
+                                                <td>18 -06 -2022</td>
+                                                <td>Male</td>
+                                                <td>A 7 years old girl</td>
+                                                <td>
+                                                    <input type="submit" name="accept" value="accept"
+                                                        class="btn btn-success">
+
+                                                    <input type="submit" name="accept" value="decline"
+                                                        class="btn btn-danger">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!-- card text ends here -->
+                                </div>
+
+
+                                <!-- card body ends here -->
+                            </div>
+
+                            <!-- card ends here -->
+                        </div>
+                    </div>
+
+                    <!-- row ends here -->
+                </div>
+
+                <!-- container ends here -->
+
+            </div>
+
+            <!-- second section ends here -->
+        </section>
+
+
+
+
+        <!--container fluid ends here -->
+    </div>
+
+
+
+
+    <!-- Bootstrap java script goes here-->
+
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+
+
+
+
+</body>
+
+
+</html>
